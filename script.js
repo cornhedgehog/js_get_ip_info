@@ -1,3 +1,4 @@
+var err = document.getElementById("error");
 var ipListArea = document.getElementById("ips");
 var resultArea = document.getElementById("result");
 var resultNumber = 0;
@@ -29,10 +30,9 @@ function get(ips) {
         else {
             const errorMessage = document.createElement('marquee');
             errorMessage.textContent = `Error`;
-            app.appendChild(errorMessage);
+            err.appendChild(errorMessage);
         }
-    }
+    };
     request.send();
     resultNumber = 0;
 }
-
