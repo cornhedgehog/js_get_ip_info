@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Ip info</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <td>
+            Insert IP(s)
+          </td>
+          <td></td>
+          <td>
+            Responce
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td width='47%'>
+            <div>
+              <textarea id="ips"></textarea>
+            </div>
+          </td>
+          <td width='6%'>
+            <div>
+              <button onclick="sendRequest()">Send request</button>
+            </div>
+          </td>
+          <td width='47%'>
+            <div>
+              <textarea id="result"></textarea>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
