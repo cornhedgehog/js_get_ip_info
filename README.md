@@ -1,7 +1,7 @@
 # js_get_ip_info
 JS script for get information about IP(s) (country name etc)
 
-## Using
+## Usage
 
 1. Clone or download this repo to your computer
 2. Go to the folder you downloaded
