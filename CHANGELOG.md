@@ -1,15 +1,17 @@
+# CHANGELOG
+
 ## v0.0.1
 
-* new *
+** new **
 
 Create v0.0.1 branch
 
-* fixed *
+** fixed **
 
 1. Unused "app" object renamed to "err", and added action for fill this.
 
 ## master
 
-* new *
+** new **
 
 Repository created
