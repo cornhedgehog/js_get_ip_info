@@ -7,6 +7,7 @@ var ipsArr = [];
 
 function sendRequest() {
     var inputArray = ipListArea.value.split("\n");
+    resultArea.value = "number;ip;country\n";
 
     // From this service you can get information not more for 100 IPs for one request
     // Split IPs array to subarrays with 100 elements
